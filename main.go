@@ -10,7 +10,7 @@ import (
 func main() {
 	rootCtx := context.Background()
 	addr := "http://192.168.0.56:2665"
-	token := ''
+	token := ""
 
 	client, err := client.NewClient(rootCtx, addr, token)
 	if err != nil {
